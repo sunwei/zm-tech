@@ -5,7 +5,7 @@ const App = getApp()
 
 Page({
     data: {
-      coachInfo: { nickName: '刘教练', description: '13年教学经验，不止于用心！', "phone": "15927115522"},
+      coachInfo: {},
       like: 0,
       message: 0,
       postsList: [],
@@ -74,7 +74,7 @@ Page({
     onLikeButtonClicked() {
       if (this.lastLikeDate && !this.isLastLike4HoursAgo()){
         App.WxService.showModal({
-          content: '你的热情刘教练已经感受到了！但不要这么急切，距离上一次感谢需要4个小时来消化，让刘教练先缓一缓！',
+          content: `你的热情${Config.starName}已经感受到了！但不要这么急切，距离上一次感谢需要4个小时来消化，让${Config.starName}先缓一缓！`,
           confirmText: "确认",
           showCancel: false,
           success: function (res) {
@@ -95,7 +95,7 @@ Page({
         "type": 'like',
         "avatar_url": this.userInfo.avatarUrl,
         "loginname": this.userInfo.nickName + '@' + this.userInfo.city,
-        "title": '给刘教练点了个赞！加油！'
+        "title": `给${Config.starName}点了个赞！加油！`
       }, function(){
         self.syncData()
         self.lastLikeDate = new Date();
@@ -119,7 +119,7 @@ Page({
               "type": 'call',
               "avatar_url": self.userInfo.avatarUrl,
               "loginname": self.userInfo.nickName + '@' + self.userInfo.city,
-              "title": '向刘教练打了个电话，咨询了一些问题。'
+              "title": `向${Config.starName}打了个电话，咨询了一些问题。`
             }, function () {
               self.syncData()
             })
@@ -159,7 +159,7 @@ Page({
     onShareAppMessage: function () {
       var self = this
         return {
-          title: '首页 - 刘教学车',
+          title: `首页 - ${Config.starName}`,
           path: '/pages/index/index',
           complete: function (res) {
             if (res.errMsg === 'shareAppMessage:ok') {

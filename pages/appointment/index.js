@@ -8,7 +8,9 @@ Page({
     showTopTips: false,
     content: "",
     phone: "",
-    errorMessage: "提示消息"
+    errorMessage: "提示消息",
+    starName: Config.starName,
+    appointment_des: Config.appointment_des
   },
   onLoad() {
     this.userInfo = App.WxService.getStorageSync('userinfo')
@@ -69,7 +71,7 @@ Page({
       "type": 'appointment',
       "avatar_url": this.userInfo.avatarUrl,
       "loginname": this.userInfo.nickName + '@' + this.userInfo.city,
-      "title": '系统消息：您的预约己收到，刘教练会随后联系您，请保持电话畅通。',
+      "title": `系统消息：您的预约己收到，${Config.starName}会随后联系您，请保持电话畅通。`,
       "content": this.data.content,
       "phone": this.data.phone
     }, function () {

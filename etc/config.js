@@ -10,5 +10,6 @@ export default {
   cloud_minapp: 'bf4f8f58ab9b2500add0',
   star_table_id: '1383',
   star_record_id: '59afeeab09a80569d55199ad',
-  events_table_id: '1384'
+  events_table_id: '1384',
+  appointment_des: '你可以在这里发布预约的细节，如专业领域、合作方式、合作细节、时间安排等相关问题...'
 }

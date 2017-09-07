@@ -11,9 +11,9 @@ App({
   globalData: {
     userInfo: null,
     coachInfo: {
-      "nickName": '刘教练', 
-      "description": '13年教学经验，不止于用心！', 
-      "phone": "15927115522",
+      "nickName": '互联网、APP、小程序',
+      "description": '第一年完全免费，后续合作按需提供有偿服务',
+      "phone": "17786044851",
       "avatar": 'http://little7-1252484566.cosgz.myqcloud.com/mini-program/zm-logo-420.png'
       },
     events: []

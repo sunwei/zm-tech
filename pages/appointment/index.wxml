@@ -13,14 +13,14 @@
           </view>
       </view>
     </view>
-    <view class="weui-cells__tips">手机号只有刘教练可见</view>
+    <view class="weui-cells__tips">手机号只有{{ starName }}可见</view>
 
     <view class="empty"/>
 
     <view class="weui-cells weui-cells_after-title">
       <view class="weui-cell">
         <view class="weui-cell__bd">
-          <textarea id="content" bindinput="bindContentChange" class="weui-textarea" placeholder="你可以在这里发布预约的细节，如关于约乘试驾、如关于预约科目考试的相关问题..." style="height: 10.3em" maxlength="300" />
+          <textarea id="content" bindinput="bindContentChange" class="weui-textarea" placeholder="{{ appointment_des }}" style="height: 10.3em" maxlength="300" />
         </view>
       </view>
     </view>
