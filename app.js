@@ -10,7 +10,12 @@ import Utils from 'utils/util'
 App({
   globalData: {
     userInfo: null,
-    coachInfo: {nickName: '刘教练', description: '13年教学经验，不止于用心！', "phone": "15927115522"},
+    coachInfo: {
+      "nickName": '刘教练', 
+      "description": '13年教学经验，不止于用心！', 
+      "phone": "15927115522",
+      "avatar": 'http://little7-1252484566.cosgz.myqcloud.com/mini-program/zm-logo-420.png'
+      },
     events: []
   },
   onLaunch() {
@@ -36,7 +41,8 @@ App({
       self.globalData.coachInfo = {
         'nickName':res.data.nick_name,
         'description':res.data.description,
-        'phone':res.data.mobile_phone
+        'phone':res.data.mobile_phone,
+        'avatar':res.data.avatar,
         }
 
       let ProductEvents = new wx.BaaS.TableObject(Config.events_table_id)

@@ -1,3 +1,5 @@
+import Config from '../../etc/config'
+
 const App = getApp()
 
 Page({
@@ -8,6 +10,7 @@ Page({
         interval: 3000,
         duration: 1000,
         circular: !1,
+        startPage: Config.startPage
     },
     onLoad() {
         // App.WxService.clearStorage()

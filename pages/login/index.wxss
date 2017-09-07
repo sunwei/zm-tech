@@ -69,7 +69,7 @@
 .logged .logged-icon {
 	display: block;
 	width: 64px;
-	height: 64px;
+	height: 49px;
 	margin: 20px auto;
 }
 

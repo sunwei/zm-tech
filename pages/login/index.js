@@ -1,8 +1,12 @@
+import Config from '../../etc/config'
+
 const App = getApp()
 
 Page({
     data: {
-        logged: !1
+        logged: !1,
+        loginLogo: Config.loginLogo,
+        starName: Config.starName
     },
     onLoad() {
     },
