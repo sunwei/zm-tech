@@ -12,6 +12,19 @@ Page({
   onLoad() {
     this.userInfo = App.WxService.getStorageSync('userinfo')
   },
+  onShareAppMessage: function () {
+    var self = this
+    return {
+      title: `名片 - 仲谋科技`,
+      path: '/pages/comment/index',
+      complete: function (res) {
+        if (res.errMsg === 'shareAppMessage:ok') {
+        }
+      },
+      fail: function (res) {
+      }
+    }
+  },
   showTopTips: function(){
     var that = this;
     this.setData({

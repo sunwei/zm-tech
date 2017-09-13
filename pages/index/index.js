@@ -5,7 +5,12 @@ const App = getApp()
 
 Page({
     data: {
-      coachInfo: {},
+      coachInfo: {
+        "nickName": '互联网、APP、小程序',
+        "description": '你的肯定，是我们努力的原因！',
+        "phone": "17786044851",
+        "avatar": 'http://little7-1252484566.cosgz.myqcloud.com/mini-program/zm-logo-420.png'
+      },
       like: 0,
       message: 0,
       postsList: [],

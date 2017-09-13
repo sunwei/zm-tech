@@ -1,18 +1,12 @@
 <view class="page" xmlns:wx="http://www.w3.org/1999/xhtml">
   <view class="page__bd">
-    <view class="weui-toptips weui-toptips_warn" wx:if="{{showTopTips}}">{{errorMessage}}</view>
+    <view class="empty"/>
+
+    <image class="weui-grid__icon item-avatar" src="https://cloud-minapp-3058.cloud.ifanrusercontent.com/1ds8AOHRfuzkjFFb.png" style="width:300px;height:176px;"></image>
 
     <view class="empty"/>
-    <view class="weui-cells weui-cells_after-title">
-      <view class="weui-cell">
-        <view class="weui-cell__bd">
-          <textarea id="content" bindinput="bindContentChange" class="weui-textarea" placeholder="你可以在这里发布消息，我们会认真读取，谢谢！" style="height: 18.3em" maxlength="300" />
-        </view>
-      </view>
-    </view>
+    
+    <image class="weui-grid__icon item-avatar" src="https://cloud-minapp-3058.cloud.ifanrusercontent.com/1ds8AMFDDkqIStsZ.png" style="width:300px;height:176px;"></image>
 
-    <view class="weui-btn-area">
-      <button class="weui-btn" type="" bindtap="bindPublish">发布</button>
-    </view>
   </view>
 </view>
