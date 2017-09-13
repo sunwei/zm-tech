@@ -37,7 +37,7 @@ Page({
           }
           if (item.author.avatar_url === ''
             || item.author.avatar_url === undefined) {
-            item.author.avatar_url = '../../assets/images/2107_logo_64*64.png'
+            item.author.avatar_url = Config.anonymous_url
           }
           return item;
         }),

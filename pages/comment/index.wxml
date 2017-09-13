@@ -6,7 +6,7 @@
     <view class="weui-cells weui-cells_after-title">
       <view class="weui-cell">
         <view class="weui-cell__bd">
-          <textarea id="content" bindinput="bindContentChange" class="weui-textarea" placeholder="你可以在这里发布消息、寻求帮助或添加评论" style="height: 18.3em" maxlength="300" />
+          <textarea id="content" bindinput="bindContentChange" class="weui-textarea" placeholder="你可以在这里发布消息，我们会认真读取，谢谢！" style="height: 18.3em" maxlength="300" />
         </view>
       </view>
     </view>

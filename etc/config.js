@@ -4,7 +4,7 @@ export default {
   fileBasePath: 'https://api.myjson.com/bins/pl389',
   startPage: 'http://little7-1252484566.cosgz.myqcloud.com/mini-program/zm_tech_start_page.png',
   loginLogo: 'http://little7-1252484566.cosgz.myqcloud.com/mini-program/zm-logo-420.png',
-  // fileBasePath: 'http://localhost:8001/api/v1',
+  anonymous_url: 'http://little7-1252484566.cosgz.myqcloud.com/mini-program/zhongmou.png',
   appId: 'wx22fcde2d5451d7ad',
 	ihakula_request: 'ihakula_northern_hemisphere',
   cloud_minapp: 'bf4f8f58ab9b2500add0',

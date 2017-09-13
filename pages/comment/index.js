@@ -48,7 +48,8 @@ Page({
       "type": 'message',
       "avatar_url": this.userInfo.avatarUrl,
       "loginname": this.userInfo.nickName + '@' + this.userInfo.city,
-      "title": this.data.content
+      "content": this.data.content,
+      "title": `系统消息：您的留言己收到，${Config.starName}会认真读取，谢谢！`
     }, function () {
       wx.showToast({
         title: '发布成功',
