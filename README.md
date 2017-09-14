@@ -20,8 +20,15 @@
 
 * 需要下载微信官方小程序模拟器。[下载地址](https://mp.weixin.qq.com/debug/wxadoc/dev/devtools/download.html)
 * 下载源码，用官方工具创建空AppID项目，可本地查看
+* 配置后台
+    1. 注册[知晓云](https://cloud.minapp.com/)账号
+    2. 创建应用并授权小程序
+    3. 分别添加数据表star, events如下所示(注：创建表时会默认生成一些系统自用字段，不用理会):
+    ![star table fields](assets/images/preview/star_table.png)
+    ![events table fields](assets/images/preview/events_table.png)
 
-## 线上版本查看，目前已经提交，正在审核中
+
+## 当前状态：目前已经提交，正在审核中
 
 <div align=center>
 
