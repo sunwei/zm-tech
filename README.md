@@ -5,14 +5,14 @@
 <div align=center>
 
 ![首页](assets/images/preview/home.PNG) 
-![留言](assets/images/preview/comment.PNG)
+![留言](assets/images/preview/card.PNG)
  
 </div>
 
 <div align=center>
 
-![分享](assets/images/preview/foward.PNG) 
-![预约](assets/images/preview/assignment.PNG)
+![分享](assets/images/preview/call.PNG) 
+![预约](assets/images/preview/appointment.PNG)
  
 </div>
 
@@ -21,11 +21,11 @@
 * 需要下载微信官方小程序模拟器。[下载地址](https://mp.weixin.qq.com/debug/wxadoc/dev/devtools/download.html)
 * 下载源码，用官方工具创建空AppID项目，可本地查看
 
-## 线上版本查看
+## 线上版本查看，目前已经提交，正在审核中
 
 <div align=center>
 
-![home](assets/images/preview/mini.jpg) 
+![home](assets/images/preview/states.png) 
  
 </div>
 
