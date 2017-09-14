@@ -25,8 +25,10 @@
     2. 在知晓云创建应用并授权小程序
     3. 按知晓云配置说明在[腾讯公众平台](https://mp.weixin.qq.com)设置后台: `设置 -》开发设置 -》服务器域名`
     3. 在知晓云应用中分别添加数据表star, events表，并添加自定义字段如下所示(注：创建表时会默认生成一些系统自用字段，不用理会):
-    ![star table fields](assets/images/preview/star_table.png)
-    ![events table fields](assets/images/preview/events_table.png)
+        * star: [nick_name, mobile_phone, description]<string> 
+        ![star table fields](assets/images/preview/star_table.png)
+        * events: [type, content, mobile_phone, avatar_url, username, title, last_reply_at]<string>
+        ![events table fields](assets/images/preview/events_table.png)
     4. 打开小程序定制配置文件 `/etc/config.js` , 进行自定义:
     ![config.js](assets/images/preview/config.png)
     
