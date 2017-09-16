@@ -34,11 +34,11 @@
     
 
 
-## 当前状态：目前已经提交，正在审核中
+## 当前状态：已上线，体验请打开微信扫描小程序码
 
 <div align=center>
 
-![home](assets/images/preview/states.png) 
+![小程序码](assets/images/preview/mini.jpg) 
  
 </div>
 
